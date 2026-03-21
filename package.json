@@ -1,15 +1,11 @@
 {
   "name": "volues",
   "version": "1.0.0",
-  "description": "A next project generated based on a UIDL document",
-  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "npx @cloudflare/next-on-pages@latest",
     "start": "next start"
   },
-  "author": "TeleportHQ",
-  "license": "MIT",
   "dependencies": {
     "@teleporthq/react-components": "latest",
     "next": "13.4.12",
@@ -17,17 +13,13 @@
     "react-dom": "18.2.0",
     "next-intl": "2.10.0",
     "dangerous-html": "0.1.13",
-    "prop-types": "15.7.2",
-    "node-fetch": "^2.7.0"
+    "prop-types": "15.7.2"
   },
   "overrides": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
-  "engines": {
-    "node": ">=18.x"
-  },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16"
+    "@cloudflare/next-on-pages": "^1.13.0"
   }
 }
