@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "npx @cloudflare/next-on-pages@latest",
+    "build": "npx @cloudflare/next-on-pages",
     "start": "next start"
   },
   "dependencies": {
@@ -12,14 +12,14 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "next-intl": "2.10.0",
-    "dangerous-html": "0.1.13",
-    "prop-types": "15.7.2"
+    "dangerous-html": "0.1.13"
   },
   "overrides": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.0"
+    "@cloudflare/next-on-pages": "^1.13.0",
+    "vercel": "^32.0.0"
   }
 }
