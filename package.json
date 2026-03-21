@@ -24,8 +24,10 @@
   "engines": {
     "node": ">=18.x"
   },
+  "config": {
+    "npm_config_legacy_peer_deps": "true"
+  },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16",
-    "vercel": "^32.0.0"
+    "@cloudflare/next-on-pages": "^1.13.16"
   }
 }
